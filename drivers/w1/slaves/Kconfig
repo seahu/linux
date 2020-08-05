@@ -167,4 +167,14 @@ config W1_SLAVE_DS28E17
 
 	  If you are unsure, say N.
 
+config W1_SEAHU_CD
+	tristate "Arduino opensource multi sensors/actors over 1-wire"
+	help
+	  If you anable this will have the arduino opensource sensors/actors
+	  over 1-wire  chips support.
+
+	  Say Y here if you want to use opensource sensors over 1-wire
+
+	  If you are unsure, say N..
+
 endmenu
